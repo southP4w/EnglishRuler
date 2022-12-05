@@ -27,7 +27,8 @@ public class EnglishRuler
 	private static void drawLine(int tickLength, int tickLabel) {
 		for (int j = 0; j<tickLength; j++)
 			System.out.print('-');
-		if (tickLabel>=0) System.out.print(" " + tickLabel);
+		if (tickLabel>=0)
+			System.out.print(" " + tickLabel);
 		System.out.print('\n');
 	}
 }
